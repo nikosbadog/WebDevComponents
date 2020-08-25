@@ -41,5 +41,18 @@ $(document).ready(function () {
   }
 
 
-  $(".article-share-btn")
+  // Article Component
+  $(".article-share-btn").click(function(){
+
+
+    $(".article-share-options")
+    .toggle();
+    $(".article-share-btn").toggleClass( "active" );
+    $(".article-contact-details").toggleClass( "active" );
+
+
+    $(".article-profile-image").toggleClass( "hide-mobile" );
+    $(".article-details").toggleClass( "hide-mobile" );
+
+  });
   
