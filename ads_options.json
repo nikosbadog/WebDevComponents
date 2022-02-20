@@ -1,4 +1,3 @@
 {
-	"admob": true,
-	"unity": false
+  "admob": false
 }
